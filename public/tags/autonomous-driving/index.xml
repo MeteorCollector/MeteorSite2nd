@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Autonomous Driving on MeteorCollectorBlogs</title>
-    <link>http://localhost:1313/tags/autonomous-driving/</link>
+    <link>http://localhost:1313/MeteorSite2nd/tags/autonomous-driving/</link>
     <description>Recent content in Autonomous Driving on MeteorCollectorBlogs</description>
     <image>
       <title>MeteorCollectorBlogs</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/MeteorSite2nd/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/MeteorSite2nd/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/autonomous-driving/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/MeteorSite2nd/tags/autonomous-driving/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simlingo 复现</title>
-      <link>http://localhost:1313/posts/simlingo/</link>
+      <link>http://localhost:1313/MeteorSite2nd/posts/simlingo/</link>
       <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/simlingo/</guid>
+      <guid>http://localhost:1313/MeteorSite2nd/posts/simlingo/</guid>
       <description>搞完 B2DVL 之后，对 Simlingo 进行了复现</description>
     </item>
     <item>
       <title>VLA RL Aug &#39;25 B</title>
-      <link>http://localhost:1313/posts/vla-rl-0818/</link>
+      <link>http://localhost:1313/MeteorSite2nd/posts/vla-rl-0818/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/vla-rl-0818/</guid>
+      <guid>http://localhost:1313/MeteorSite2nd/posts/vla-rl-0818/</guid>
       <description>八月中下旬看的文章放到这里</description>
     </item>
     <item>
       <title>VLA RL Aug &#39;25 A</title>
-      <link>http://localhost:1313/posts/vla-rl-0803/</link>
+      <link>http://localhost:1313/MeteorSite2nd/posts/vla-rl-0803/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/vla-rl-0803/</guid>
+      <guid>http://localhost:1313/MeteorSite2nd/posts/vla-rl-0803/</guid>
       <description>八月上旬看的文章放到这里</description>
     </item>
   </channel>
