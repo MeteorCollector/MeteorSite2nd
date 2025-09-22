@@ -47,7 +47,7 @@ simlingo 已经开源了有一段时间了，所以这个评测来得稍微有�
 
 与车辆相撞 1 次，60 分
 
-![](/images/accident_2534.png)
+![](images/accident_2534.png)
 
 很典型的变道时机不对，架构设计仅看前视导致的必然结果。很好奇它的变道学习的是哪个特征，目标车道有车过去了就赶紧跟着变道？
 
@@ -57,7 +57,7 @@ simlingo 已经开源了有一段时间了，所以这个评测来得稍微有�
 
 与车辆相撞 1 次，60 分
 
-![](/images/accident_3307.png)
+![](images/accident_3307.png)
 
 在图 2， 3， 4中，自然语言已经给出了 “停止” 或者 “减速” 的信息，但是车还是没有刹住，导致了追尾。图5， 6中，提到车辆应该跟随前方的 marron car / black car，而不是正前方的 green car，在推理方面也是出了问题。其实我本来对 simlingo 的 action 水平抱有较高期待，因为文章里提到用 dreaming 训练保证了 action model 会严格执行文字指出的指令，而不是过于依赖图片导致过拟合；现在我觉得虽然在路线选择上水平已经很高，但是在速度控制方面还是训练得不太好。我觉得这与仅用单帧图像训练使得模型对周围交通参与者运动情况估计不准也有关系。
 
@@ -71,7 +71,7 @@ reasoning 指出跟随错误的车辆的问题，我觉得和 1B 模型能力不
 
 其实 simlingo 在包括 AccidentTwoWays 在内的对向变道场景中表现得都比较惊艳，我跑的 3 个 AccidentTwoWays 中，两个都是满分。可能是因为对象的车辆会出现在前视摄像头里，不如同向变道迷茫。
 
-![](/images/accident_two_ways_3410.png)
+![](images/accident_two_ways_3410.png)
 
 在这个场景中，我怀疑在变道的时候因为天色太暗，实在是没看清那辆蓝色的车。但是后来蓝色车迫近了却没有紧急停止也有些不应该。不过我认为这很可能是因为在数据集中，正在变道的时候都是“好”数据，也就是说专家数据中变道的时机都是正确的，导致学出来的效果是一旦开始变道就不会停止。这其实有利于动作连贯性，但是如果一开始时机就判断错了，基于错误的时机坚持变道，肯定就会像这样出事故。
 
@@ -81,7 +81,7 @@ reasoning 指出跟随错误的车辆的问题，我觉得和 1B 模型能力不
 
 与车辆相撞 1 次，60 分
 
-![](/images/non_signalized_junction_right_turn_2115.png)
+![](images/non_signalized_junction_right_turn_2115.png)
 
 这个看起来有些匪夷所思：蓝车一会儿看得见一会儿看不见，导致撞车。到后面更是一直认为前面有一个 black car，要加速才能跟随。这应该也是过拟合出的幻觉。
 
@@ -95,7 +95,7 @@ reasoning 指出跟随错误的车辆的问题，我觉得和 1B 模型能力不
 
 与车辆相撞 1 次，60 分
 
-![](/images/construction_obstacle_2509.png)
+![](images/construction_obstacle_2509.png)
 
 这个我反复确认了一下，在自然语言输出 Decelerate 的时候，确实没有观察到明显的减速。不过这个也有可能是 CARLA 里面制动的问题。在 CARLA 里，有些时候即使刹车踩到底，减速也不会很慢。所以这到底是不是 simlingo 模型本身的问题仍然存疑。
 
@@ -107,7 +107,7 @@ reasoning 指出跟随错误的车辆的问题，我觉得和 1B 模型能力不
 
 撞击车辆 1 次并驶出车道，分数 48.3
 
-![](/images/construction_obstacle_twoways_1825.png)
+![](images/construction_obstacle_twoways_1825.png)
 
 没错这就是那种装上会静止几千帧、非常耗时的情况。因为变道时机不好撞上了迎面而来的深蓝色车，几千帧都是 remain stopped and stay behind the black (blue) car。有些时候有幻觉，判定没车应当加速；或者说前面是黄色车。这也是那种变道时机判断失误的 case。
 
@@ -117,7 +117,7 @@ reasoning 指出跟随错误的车辆的问题，我觉得和 1B 模型能力不
 
 撞击车辆 1 次，60 分
 
-![](/images/enter_actor_flow_11755.png)
+![](images/enter_actor_flow_11755.png)
 
 直接忽略了橙色车。事实上 simlingo 在路口的判定是比较灾难的，EnterActorFlow 场景无一满分。在路口中间的高质量决策数据应该也是不多的，过拟合又雪上加霜。
 
@@ -127,7 +127,7 @@ reasoning 指出跟随错误的车辆的问题，我觉得和 1B 模型能力不
 
 撞击同一车辆 2 次，36 分
 
-![](/images/merger_into_slow_traffic_2273.gif)
+![](images/merger_into_slow_traffic_2273.gif)
 
 这是一个更典型的没有控制好速度的情况，证实了我的猜想：simlingo 在速度控制方面学习到的特征可能就是前车离远了加速离近了减速，但是当速度很快时，再按专家数据中的警戒距离减速就已经来不及了。
 
@@ -137,7 +137,7 @@ reasoning 指出跟随错误的车辆的问题，我觉得和 1B 模型能力不
 
 该条路径 100 分，但是问题不在这里。
 
-![](/images/opposite_vehicle_taking_priority_2143.png)
+![](images/opposite_vehicle_taking_priority_2143.png)
 
 对于只接收单帧信号的模型，遇到 stop sign，无从判断自己是否已经做过停止这个动作，就容易陷入无限等待。在这个场景中，自车在停止标志前停止了 800 帧，我也不知道它时基于什么标准最后变成了 turn left and accelerate to follow the maroon car。左转没错，但是红车是对向车辆，我们不可能 follow 它。所以 reasoning 还是有很多问题在的。
 
@@ -149,7 +149,7 @@ reasoning 指出跟随错误的车辆的问题，我觉得和 1B 模型能力不
 
 撞击同一个车辆两次，36 分
 
-![](/images/SignalizedJunctionLeftTurn_4183.gif)
+![](images/SignalizedJunctionLeftTurn_4183.gif)
 
 查看自然语言指令，会发现 simlingo 直接把这辆橙色 cooper 当作空气一般忽略了。老生常谈的问题：DriveLM 脚本生成的路口数据质量很低，过拟合又使得问题更加严重——1B 模型基本不具备 reasoning 能力。
 
