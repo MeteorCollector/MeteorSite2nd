@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Other on MeteorCollectorBlogs</title>
-    <link>https://MeteorCollector.github.io/categories/other/</link>
+    <link>https://meteorcollector.github.io/MeteorSite2nd/categories/other/</link>
     <description>Recent content in Other on MeteorCollectorBlogs</description>
     <image>
       <title>MeteorCollectorBlogs</title>
-      <url>https://MeteorCollector.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://MeteorCollector.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://meteorcollector.github.io/MeteorSite2nd/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://meteorcollector.github.io/MeteorSite2nd/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://MeteorCollector.github.io/categories/other/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://meteorcollector.github.io/MeteorSite2nd/categories/other/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://MeteorCollector.github.io/posts/hello_world/</link>
+      <link>https://meteorcollector.github.io/MeteorSite2nd/posts/hello_world/</link>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://MeteorCollector.github.io/posts/hello_world/</guid>
+      <guid>https://meteorcollector.github.io/MeteorSite2nd/posts/hello_world/</guid>
       <description>A &amp;#39;Hello World&amp;#39; blog for this new site.</description>
     </item>
     <item>
       <title>尽头</title>
-      <link>https://MeteorCollector.github.io/posts/old_posts/</link>
+      <link>https://meteorcollector.github.io/MeteorSite2nd/posts/old_posts/</link>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://MeteorCollector.github.io/posts/old_posts/</guid>
+      <guid>https://meteorcollector.github.io/MeteorSite2nd/posts/old_posts/</guid>
       <description>如果还想继续考古，这里有通往旧站的传送门</description>
     </item>
   </channel>
