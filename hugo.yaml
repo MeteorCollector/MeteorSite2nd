@@ -81,7 +81,7 @@ params:
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
     - name: github
-      url: "https://MeteorCollector.github.com/"
+      url: "https://github.com/MeteorCollector"
 
   analytics:
     google:
