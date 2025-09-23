@@ -9,7 +9,6 @@ categories: ["other"]
 series: ["other"]
 ShowToc: true
 TocOpen: true
-weight: 3
 ---
 
 # 你好，这是一篇测试文章！

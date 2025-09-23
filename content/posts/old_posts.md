@@ -9,7 +9,6 @@ categories: ["other"]
 series: ["other"]
 ShowToc: true
 TocOpen: true
-weight: 0
 ---
 
 旧个人站：

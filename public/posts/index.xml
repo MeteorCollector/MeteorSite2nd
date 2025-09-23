@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on MeteorCollectorBlogs</title>
     <link>http://localhost:1313/MeteorSite2nd/posts/</link>
     <description>Recent content in Posts on MeteorCollectorBlogs</description>
-    <generator>Hugo</generator>
+    <image>
+      <title>MeteorCollectorBlogs</title>
+      <url>http://localhost:1313/MeteorSite2nd/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/MeteorSite2nd/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/MeteorSite2nd/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is There a Data Scaling Law in Imitation Learning?</title>
+      <link>http://localhost:1313/MeteorSite2nd/posts/0923-il-data-scaling-law/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/MeteorSite2nd/posts/0923-il-data-scaling-law/</guid>
+      <description>看一看模仿学习数据 scaling law 这边的论文</description>
+    </item>
     <item>
       <title>Simlingo 复现</title>
       <link>http://localhost:1313/MeteorSite2nd/posts/simlingo/</link>
       <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MeteorSite2nd/posts/simlingo/</guid>
-      <description>看看 Simlingo 怎么样</description>
+      <description>搞完 B2DVL 之后，对 Simlingo 进行了复现</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/MeteorSite2nd/posts/hello_world/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/MeteorSite2nd/posts/hello_world/</guid>
+      <description>A &amp;#39;Hello World&amp;#39; blog for this new site.</description>
+    </item>
+    <item>
+      <title>尽头</title>
+      <link>http://localhost:1313/MeteorSite2nd/posts/old_posts/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/MeteorSite2nd/posts/old_posts/</guid>
+      <description>如果还想继续考古，这里有通往旧站的传送门</description>
     </item>
     <item>
       <title>VLA RL Aug &#39;25 B</title>
@@ -28,20 +54,6 @@
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/MeteorSite2nd/posts/vla-rl-0803/</guid>
       <description>八月上旬看的文章放到这里</description>
-    </item>
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/MeteorSite2nd/posts/hello_world/</link>
-      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MeteorSite2nd/posts/hello_world/</guid>
-      <description>A &amp;lsquo;Hello World&amp;rsquo; blog for this new site.</description>
-    </item>
-    <item>
-      <title>尽头</title>
-      <link>http://localhost:1313/MeteorSite2nd/posts/old_posts/</link>
-      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MeteorSite2nd/posts/old_posts/</guid>
-      <description>如果还想继续考古，这里有通往旧站的传送门</description>
     </item>
   </channel>
 </rss>

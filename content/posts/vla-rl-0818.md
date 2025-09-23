@@ -9,7 +9,6 @@ categories: ["autonomous driving"]
 series: ["autonomous driving"]
 ShowToc: true
 TocOpen: true
-weight: 1
 ---
 
 

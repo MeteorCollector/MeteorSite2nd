@@ -9,7 +9,6 @@ categories: ["autonomous driving"]
 series: ["autonomous driving"]
 ShowToc: true
 TocOpen: true
-weight: 2
 ---
 
 > 本篇从老站点迁移而来，公式可能不太舒服，见谅
