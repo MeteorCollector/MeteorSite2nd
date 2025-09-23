@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://meteorcollector.github.io/MeteorSite2nd/tags/autonomous-driving/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Imitation Learning Revisited</title>
+      <link>https://meteorcollector.github.io/MeteorSite2nd/posts/0923-il-data-scaling-law/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://meteorcollector.github.io/MeteorSite2nd/posts/0923-il-data-scaling-law/</guid>
+      <description>看一看模仿学习数据 scaling law 这边的论文</description>
+    </item>
     <item>
       <title>Simlingo 复现</title>
       <link>https://meteorcollector.github.io/MeteorSite2nd/posts/simlingo/</link>
